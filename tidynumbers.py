@@ -22,6 +22,6 @@ t = int(input())
 for i in range(0, t):
     n = int(input())
     if non_decreasing_number(n):
-            print("Case #", i + 1, ": ",  n,  "\n")
+        print("Case #", i + 1, ": ",  n,  "\n")
     else :
-            print("Case #", i + 1, ": ", last_tidy_number(n),  "\n")
+        print("Case #", i + 1, ": ", last_tidy_number(n),  "\n")
