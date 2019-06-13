@@ -5,7 +5,7 @@ for i in range(N):
     seq.append([])
     
 for query in range(Q):
-    vals= map(int, raw_input().split())
+    vals= map(int, input().split())
     x,y=vals[1],vals[2] 
     if vals[0]==1:
         index=(x ^ lastAns) % N
